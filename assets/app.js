@@ -35,6 +35,8 @@ function Creartarea(e){
         span.classList="tracking-in-expand-fwd-bottom"
         span.innerText="Opss debes ingresar algo"
     }if(tarea.length > 1  ){
+        // vaiar input
+         document.querySelector("#tweet").value=""
         // vaciar el texto
         span.innerHTML=""
 
