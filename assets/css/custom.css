@@ -67,10 +67,9 @@ h1, h2 {
     }
   }
   
-
-
-
-
+#tweet{
+  color: blue;
+}
 
 input{
 height: 10rem; 
@@ -80,3 +79,11 @@ li{
     font-size: 3rem;
 
 } 
+
+[data-theme="dark"] {
+  background-color: #111 !important;
+  color: #eee;
+}
+.custom-control input{
+  height: 0px;
+}

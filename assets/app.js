@@ -37,7 +37,7 @@ function Creartarea(e){
     }if(tarea.length > 1  ){
         // vaiar input
          document.querySelector("#tweet").value=""
-        // vaciar el texto
+        // vaciar aviso de alerta
         span.innerHTML=""
 
         
